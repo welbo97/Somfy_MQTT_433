@@ -1,4 +1,9 @@
-# Jarolift_MQTT
+# Somfy MQTT 433 controller
+
+This repo is a copy of the https://github.com/madmartin/Jarolift_MQTT code with changes made to allow control of Somfy
+shades via a Sonoff Basic ESP8266 based device and a programmable tranceiver based on the CC1101 chip. As of now, the
+code is all still the same as madmartin's with just some rearranging for use with platformio. In other words, it won't work 
+at all for its intended purpose yet. 
 
 Controlling Jarolift(TM) TDEF 433MHz radio shutters via ESP8266 and CC1101 Transceiver Module in asynchronous mode.
 Experimental version.
